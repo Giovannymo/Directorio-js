@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practica</title>
+</head>
+<body>
+    <div class="container">
+        <div class="formulario">
+            <h1>Directorio empresarial</h1>
+            <form id="formDirectorio">
+                <label for="nombre">Ingrese el nombre:</label>
+                <input type="text" name="nombre" id="txtNombre">
+                <label for="email">Ingrese el email:</label>
+                <input type="text" name="email" id="txtEmail">
+                <label for="telefono">Ingrese el telefono:</label>
+                <input type="text" name="telefono" id="txtTelefono">
+                <button id="btnAgregar" value="Agregar">Agregar</button>
+                <button id="btnEliminar" type="button" value="Eliminar">Eliminar</button>
+            </form>
+        </div>
+        <div class="table">
+            <table class="directorio">
+                <tr>
+                    <th>
+                        Num
+                    </th>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Telefono
+                    </th>
+                </tr>
+                <tr class="row">
+                    <td>0</td>
+                    <td>Juan Perez</td>
+                    <td>giovannyzo@gmail.com</td>
+                    <td>3202502678</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
